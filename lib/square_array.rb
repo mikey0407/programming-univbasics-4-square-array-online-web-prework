@@ -1,4 +1,4 @@
-array = [2,4,6,8]
+numbers = [2,4,6,8]
 def square_array(array)
  counter = 0
  while array < array.length do
@@ -7,4 +7,4 @@ def square_array(array)
     counter+=1
   end
 end
-square_array(array)
+square_array(numbers)
